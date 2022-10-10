@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JouerActivity">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="77dp"
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="47dp"
+            android:background="#0004FF"
+            android:text="Deviner le nombre caché"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="90dp"
+            android:text="Donner un nombre :"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editId"
+            android:layout_width="348dp"
+            android:layout_height="67dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="ENTRER"
+            android:inputType="numberDecimal" />
+
+
+
+        <TextView
+            android:id="@+id/resultat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="350dp"
+            android:text="Resultat :"
+            android:textColor="#EA0E0E"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score"
+            android:layout_gravity="center"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="550dp"
+            android:text="Score :"
+            android:textSize="20sp"
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>
